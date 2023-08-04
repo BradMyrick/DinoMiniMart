@@ -10,9 +10,9 @@ Here's a guide to using my DinoMiniMart contract, including all the approvals ne
     For Buyers (WETH Owners):
         Before calling the buy function to purchase an NFT, the buyer must approve the DinoMiniMart contract to transfer the WETH amount equivalent to the NFT's price. This can be done by calling the approve function on the ERC20 WETH contract with the DinoMiniMart contract's address and the amount they want to allow.
 
-2. Deposit NFT:
+2. Sell NFT:
 
-    Call the deposit(uint256 tokenId, uint256 amount) function, specifying the tokenId you wish to sell and the price (in WETH) you wish to sell it for. remember to add the appropriate 0's
+    Call the sell(uint256 tokenId, uint256 amount) function, specifying the tokenId you wish to sell and the price (in WETH) you wish to sell it for. remember to add the appropriate 0's
 
 3. Withdraw NFT:
 
